@@ -18,7 +18,7 @@ public class IntroToRandom {
 		//4. Limit the random number between 0 and 100
 
 		//5. Limit the random number between 25 and 75. Hint: ((highest value - lowest value)+1) + lowest value
-r = pann.nextInt(75+25-1)-25;
+r = pann.nextInt(75+25+1+25);
 		//6. Challenge: Limit he random number between -222 and 88
 r = pann.nextInt(-222+88-1)-88;
 		//1. Print out the value of r
